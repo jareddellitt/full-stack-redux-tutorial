@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {renderIntoDocument, scryRenderedDOMComponentsWithTag} from 'react-addons-test-utils';
 import {Simulate} from 'react-addons-test-utils';
-import Voting from '../../public/components/Voting';
+import {Voting} from '../../../public/components/Voting';
 import {expect} from 'chai';
 import {List} from 'immutable';
 
